@@ -1,0 +1,68 @@
+:root {
+	// COLORS
+	--clr-light: 0, 0%, 100%;
+
+	--clr-bg-1: 168, 44%, 70%;
+	--clr-bg-2: 199, 86%, 71%;
+
+	--clr-text-1: 212, 27%, 19%;
+	--clr-text-2: 232, 10%, 55%;
+	--clr-text-3: 210, 4%, 67%;
+	--clr-text-4: 213, 9%, 39%;
+	--clr-text-5: 168, 45%, 32%;
+	--clr-text-7: 167, 40%, 24%;
+	--clr-text-8: 197, 84%, 13%;
+	--clr-text-9: 168, 34%, 41%;
+
+	--clr-accent-1: 51, 100%, 49%;
+	--clr-accent-2: 7, 99%, 70%;
+
+	//TYPOGRAPHY
+	//Font Families
+	--ff-serif: "Fraunces", serif;
+	--ff-sans: "Barlow", sans-serif;
+
+	//Font Sizes
+	--fs-900: 2.5rem; //40px
+	--fs-800: 2rem; //32px
+	--fs-700: 1.75rem; //28px
+	--fs-600: 1.25rem; //20px
+	--fs-500: 1.125rem; //18px
+	--fs-400: 1rem; //16px
+	--fs-300: 0.9375rem; //15px
+	--fs-200: 0.875rem; //14px
+
+	@media (min-width: 64rem) {
+		--fs-900: 3.5rem; //56px
+		--fs-800: 2.5rem; //40px
+	}
+
+	//Font Weights
+	--fw-black: 900;
+	--fw-bold: 700;
+	--fw-semibold: 600;
+
+	//Line Heights
+	--lh-300: 3.0825rem; //49.32px
+	--lh-200: 2.4663rem; //39.46
+	--lh-150: 2rem; //32px
+	--lh-100: 1.875rem; //30px
+	--lh-75: 1.6875rem; //27px
+	--lh-50: 1.5625rem; //25px
+
+	@media (min-width: 64rem) {
+		--lh-200: 3rem; //49.32px
+	}
+
+	//Letter Spacing
+	--ls-500: 0.3925rem; //6.25px
+	--ls-400: 0.25rem; //4px
+	--ls-300: 0.0625rem; //1px
+	--ls-200: -0.014375rem; //-0.23px
+	--ls-100: -0.008125rem; //-0.13px
+	--ls-50: -0.006875rem; //-0.11px
+
+	//LAYOUT
+	--padding-container: 1.5em;
+	--height-header: 3.75rem;
+}

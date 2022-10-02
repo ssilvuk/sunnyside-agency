@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+body {
+	background-color: lightgray;
+}
+
+.container {
+	max-width: 90rem;
+	margin-inline: auto;
+	padding-inline: 1.5em;
+
+	text-align: center;
+
+	background-color: hsl(var(--clr-light));
+
+	// border: 2px solid green;
+}
+
+@media (min-width: 48rem) {
+	.container {
+		padding-inline: 2.5em;
+	}
+}

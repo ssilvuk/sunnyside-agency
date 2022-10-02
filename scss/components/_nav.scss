@@ -1,0 +1,90 @@
+@use "../abstracts/variables" as *;
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.primary-navigation {
+	display: flex;
+	gap: 2.9375rem;
+}
+
+.primary-navigation a {
+	padding: 0.25em 0.5em;
+	font-family: var(--ff-sans);
+	font-size: var(--fs-500);
+	font-weight: var(--fw-semibold);
+	line-height: var(--lh-50);
+	letter-spacing: var(--ls-100);
+	color: hsl(var(--clr-light));
+
+	&:hover {
+		color: hsl(var(--clr-light));
+		background-color: hsl(var(--clr-light), 0.3);
+	}
+}
+
+.primary-navigation a.contact-button {
+	padding: 1.25em 2em;
+
+	align-self: center;
+
+	font-family: var(--ff-serif);
+	font-size: var(--fs-300);
+	font-weight: var(--fw-bold);
+	text-transform: uppercase;
+
+	border-radius: 50px;
+
+	color: black;
+	background-color: white;
+
+	&:hover {
+		color: hsl(var(--clr-light));
+		background-color: hsl(var(--clr-light), 0.3);
+	}
+}
+
+@media (max-width: 47.999rem) {
+	.nav-toggle {
+		width: 1.5rem;
+		aspect-ratio: 1;
+		display: block;
+
+		background-color: transparent;
+		background-image: url(/images/icon-hamburger.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+
+		border: 0;
+	}
+
+	.primary-navigation {
+		display: none;
+	}
+}
+
+.secondary-navigation {
+	display: flex;
+	justify-content: center;
+	gap: 3.5625rem;
+	line-height: var(--lh-75);
+	letter-spacing: var(--ls-100);
+
+	font-family: var(--ff-sans);
+	font-size: var(--fs-500);
+}
+
+.secondary-navigation a {
+	font-weight: var(--fw-semibold);
+	color: hsl(var(--clr-text-9));
+
+	&:hover {
+		color: hsl(var(--clr-light));
+	}
+}

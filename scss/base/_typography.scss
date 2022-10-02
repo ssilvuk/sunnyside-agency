@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+.heading--large {
+	font-family: var(--ff-serif);
+	font-size: var(--fs-900);
+	font-weight: var(--fw-black);
+	line-height: var(--lh-300);
+	letter-spacing: var(--ls-500);
+	text-transform: uppercase;
+
+	color: white;
+}
+
+.heading--medium {
+	font-family: var(--ff-serif);
+	font-size: var(--fs-800);
+	font-weight: var(--fw-black);
+	line-height: var(--lh-200);
+	letter-spacing: var(--ls-200);
+
+	color: hsl(var(--clr-text-1));
+}
+
+.heading--small {
+	font-family: var(--ff-serif);
+	font-size: var(--fs-700);
+	font-weight: var(--fw-black);
+	letter-spacing: var(--ls-200);
+
+	color: hsl(var(--clr-accent-3));
+}
