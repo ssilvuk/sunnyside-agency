@@ -10,7 +10,7 @@ header {
 	padding-bottom: 8.5325em;
 
 	text-align: center;
-	background-image: url(./images/mobile/image-header.jpg);
+	background-image: url(/images/mobile/image-header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -30,7 +30,7 @@ header {
 
 @media (min-width: 28.75rem) {
 	header {
-		background-image: url(./images/desktop/image-header.jpg);
+		background-image: url(/images/desktop/image-header.jpg);
 		background-position: center top;
 	}
 }
@@ -210,7 +210,7 @@ header {
 }
 
 .image-box:nth-child(2) {
-	background-image: url(./images/mobile/image-transform.jpg);
+	background-image: url(/images/mobile/image-transform.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -220,7 +220,7 @@ header {
 }
 
 .image-box:nth-child(3) {
-	background-image: url(./images/mobile/image-stand-out.jpg);
+	background-image: url(/images/mobile/image-stand-out.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -231,11 +231,11 @@ header {
 	}
 
 	.image-box:nth-child(2) {
-		background-image: url(./images/desktop/image-transform.jpg);
+		background-image: url(/images/desktop/image-transform.jpg);
 	}
 
 	.image-box:nth-child(3) {
-		background-image: url(./images/desktop/image-stand-out.jpg);
+		background-image: url(/images/desktop/image-stand-out.jpg);
 	}
 }
 
@@ -255,7 +255,7 @@ header {
 }
 
 .both-box:nth-child(5) {
-	background-image: url(./images/mobile/image-graphic-design.jpg);
+	background-image: url(/images/mobile/image-graphic-design.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -263,7 +263,7 @@ header {
 }
 
 .both-box:nth-child(6) {
-	background-image: url(./images/mobile/image-photography.jpg);
+	background-image: url(/images/mobile/image-photography.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -272,11 +272,11 @@ header {
 
 @media (min-width: 28.75rem) {
 	.both-box:nth-child(5) {
-		background-image: url(./images/desktop/image-graphic-design.jpg);
+		background-image: url(/images/desktop/image-graphic-design.jpg);
 		background-position: center;
 	}
 	.both-box:nth-child(6) {
-		background-image: url(./images/desktop/image-photography.jpg);
+		background-image: url(/images/desktop/image-photography.jpg);
 		background-position: center;
 	}
 }
