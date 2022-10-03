@@ -106,8 +106,18 @@
 	.primary-navigation a {
 		color: hsl(var(--clr-text-2));
 	}
+
 	.primary-navigation a:hover {
 		color: hsl(var(--clr-accent-3));
+	}
+
+	.primary-navigation a.contact-button {
+		background-color: hsl(var(--clr-accent-3));
+
+		&:hover {
+			color: black;
+			background-color: hsl(var(--clr-accent-3), 0.4);
+		}
 	}
 }
 
