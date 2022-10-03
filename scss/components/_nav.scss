@@ -6,6 +6,7 @@
 }
 
 .nav-toggle {
+	cursor: pointer;
 	display: none;
 }
 
@@ -54,18 +55,59 @@
 	.nav-toggle {
 		width: 1.5rem;
 		aspect-ratio: 1;
+
 		display: block;
 
-		background-color: transparent;
+		background: transparent;
 		background-image: url(/images/icon-hamburger.svg);
 		background-repeat: no-repeat;
 		background-position: center;
-
+		width: 1.5rem;
+		aspect-ratio: 1;
 		border: 0;
+
+		z-index: 2000;
+	}
+	.nav-toggle[aria-expanded="true"] {
+		background-image: url(/images/icon-close.svg);
+	}
+
+	.nav-toggle:focus-visible {
+		outline: 5px solid white;
+		outline-offset: 5px;
+	}
+
+	nav {
+		position: relative;
 	}
 
 	.primary-navigation {
-		display: none;
+		height: 40vh;
+		z-index: 1000;
+
+		position: fixed;
+		inset: 82px 2.2em 0 2.2em;
+
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 3em;
+
+		background-color: hsl(var(--clr-bg-3));
+
+		transform: translate(120%);
+		transition: transform 750ms ease-in-out;
+
+		&[data-visible="true"] {
+			transform: translateX(0);
+		}
+	}
+
+	.primary-navigation a {
+		color: hsl(var(--clr-text-2));
+	}
+	.primary-navigation a:hover {
+		color: hsl(var(--clr-accent-3));
 	}
 }
 
