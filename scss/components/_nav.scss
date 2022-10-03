@@ -59,7 +59,7 @@
 		display: block;
 
 		background: transparent;
-		background-image: url(/images/icon-hamburger.svg);
+		background-image: url(../images/icon-hamburger.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 		width: 1.5rem;
@@ -69,7 +69,7 @@
 		z-index: 2000;
 	}
 	.nav-toggle[aria-expanded="true"] {
-		background-image: url(/images/icon-close.svg);
+		background-image: url(../images/icon-close.svg);
 	}
 
 	.nav-toggle:focus-visible {
